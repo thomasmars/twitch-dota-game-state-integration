@@ -1,0 +1,16 @@
+{
+  "name": "dotatwitchextension",
+  "version": "1.0.0",
+  "description": "dota 2 extension",
+  "main": "mysample.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "db": "node src/utilities/generateDBFiles.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thomasmars",
+  "license": "ISC",
+  "dependencies": {
+    "dota2-gsi": "^1.0.1"
+  }
+}
